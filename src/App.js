@@ -8,7 +8,6 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Página em construção! Em breve no ar.</p>
-        <h5>by Tiago Borges Nascimento</h5>
       </header>
     </div>
   );
