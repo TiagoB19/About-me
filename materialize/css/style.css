@@ -1,0 +1,9 @@
+@font-face {
+    font-family: atari;
+    src: url(../fonts/AtariClassic-gry3.ttf);
+}
+
+*{
+    font-family: atari;
+    margin-left: 10px;
+}   
