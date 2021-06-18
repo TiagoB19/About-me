@@ -7,3 +7,54 @@
     font-family: atari;
     margin-left: 10px;
 }   
+
+body{
+    background-color: lightblue;
+}
+
+.circle-img{
+    width: 250px;
+    height: 250px;
+    background-color: gray;
+    border-radius: 50%;
+    border-color: white;
+    margin-bottom: 50px;
+    position: absolute;
+    right: 850px;
+    float: right;
+    background-image: url('../img/foto-perfil.jpg');
+    background-size: cover;
+}
+
+.text {
+    border: black 1px 1px 1px 1px;
+    height: 190px;
+    width:47px;
+    display: block;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    color: crimson
+}
+
+.icon1{
+    background-image: url(../img/github-32px.png);
+    background-size: cover;
+    position: relative;
+    top: 255px;
+    right: -80px;
+    width: 32px;
+    height: 32px;
+    z-index: 10;   
+}
+
+.icon2{
+    background-image: url(../img/linkedin-sociocon.ico);
+    background-size: cover;
+    position: relative;
+    top: 200px;
+    right: -120px;
+    width: 38px;
+    height: 38px;
+    z-index: 10;
+    cursor: pointer;
+}
